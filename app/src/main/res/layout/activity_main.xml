@@ -10,7 +10,13 @@
         android:layout_height="wrap_content"
         android:text="New ToggleButton"
         android:id="@+id/flash_switch"
+        android:background="@drawable/check"
+        android:textOn=""
+        android:textOff=""
+        android:focusable="true"
         android:focusableInTouchMode="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
+
+    <!-- android:background="@drawable/check" for check.xml-->
